@@ -13,6 +13,9 @@ require (
 	gorm.io/gorm v1.25.9
 )
 
+//replace gorm.io/gen v0.3.26 => github.com/ukys/gen v0.0.1
+replace gorm.io/gen v0.3.26 => ../../../gen
+
 require (
 	github.com/ClickHouse/ch-go v0.58.2 // indirect
 	github.com/ClickHouse/clickhouse-go/v2 v2.15.0 // indirect
